@@ -1,0 +1,31 @@
+# Build ignore rules
+# Files and directories matching these patterns will NOT be copied to dist/
+
+# Build output
+dist/
+node_modules/
+
+# Build configuration
+.buildignore
+.editorconfig
+.eslintignore
+.eslintrc.js
+
+# Lock files
+package-lock.json
+
+# Source files (will be bundled by esbuild)
+src/
+
+# Version control
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+

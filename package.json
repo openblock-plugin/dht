@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "author": "OpenBlock",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.js --watch",
+    "build": "node esbuild.config.js --minify"
+  },
+  "openblock": {
+    "name": "Arduino Uno R4 WiFi",
+    "deviceId": "arduinoUnoR4Wifi",
+    "manufactor": "arduino",
+    "learnMore": "https://docs.arduino.cc/hardware/uno-r4-wifi",
+    "type": "arduino",
+    "iconURL": "./assets/arduinoUnoR4WifiIconURL",
+    "description": {
+      "formatMessage": {
+        "id": "device.arduinoUnoR4Wifi.description",
+        "default": "Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations."
+      }
+    },
+    "featured": true,
+    "disabled": false,
+    "bluetoothRequired": false,
+    "serialportRequired": true,
+    "defaultBaudRate": "9600",
+    "internetConnectionRequired": false,
+    "launchPeripheralConnectionFlow": true,
+    "useAutoScan": false,
+    "connectionIconURL": "./assets/arduinoUnoR4WifiConnectionIconURL",
+    "connectionSmallIconURL": "./assets/arduinoUnoR4WifiConnectionSmallIconURL",
+    "main": "./src/arduinoUnoR4Wifi.js",
+    "translations": "./src/translations.js",
+    "dependencies": {
+        "toolchains": {
+            "arduino-arduino-renesas_uno": "latest"
+        }
+    },
+    "programMode": ["realtime"],
+    "programLanguage": ["block", "cpp"],
+    "tags": ["arduino"],
+    "helpLink": "https://wiki.openblock.cc/general-hardware-guidelines/boards/arduino-uno-r4-wifi"
+  }
+}
