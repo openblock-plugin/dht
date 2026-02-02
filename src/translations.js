@@ -20,20 +20,20 @@
 export default {
     'interface': {
         'en': {
-            'extension.dht.name': 'DHT Sensor',
-            'extension.dht.description': 'DHT Temperature and humidity sensor module.'
+            'dht.name': 'DHT Sensor',
+            'dht.description': 'DHT Temperature and humidity sensor module.'
         },
         'ru': {
-            'extension.dht.name': 'DHT Sensor',
-            'extension.dht.description': 'DHT Temperature and humidity sensor module.'
+            'dht.name': 'DHT Sensor',
+            'dht.description': 'DHT Temperature and humidity sensor module.'
         },
         'zh-cn': {
-            'extension.dht.name': 'DHT Sensor',
-            'extension.dht.description': 'DHT Temperature and humidity sensor module.'
+            'dht.name': 'DHT Sensor',
+            'dht.description': 'DHT Temperature and humidity sensor module.'
         },
         'zh-tw': {
-            'extension.dht.name': 'DHT Sensor',
-            'extension.dht.description': 'DHT Temperature and humidity sensor module.'
+            'dht.name': 'DHT Sensor',
+            'dht.description': 'DHT Temperature and humidity sensor module.'
         }
     },
     'extensions': {
