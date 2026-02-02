@@ -14,8 +14,10 @@ node_modules/
 # Lock files
 package-lock.json
 
-# Source files (will be bundled by esbuild)
+# Source files
+assets/
 src/
+package.json
 
 # Version control
 .git/
@@ -29,3 +31,5 @@ src/
 .DS_Store
 Thumbs.db
 
+# Cache files
+.openblock/

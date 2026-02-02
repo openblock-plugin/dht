@@ -1,0 +1,3 @@
+#!/bin/sh
+npx openblock-registry-cli validate
+npx openblock-registry-cli verify-tag
