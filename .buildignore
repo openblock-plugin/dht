@@ -15,11 +15,6 @@ node_modules/
 # Lock files
 package-lock.json
 
-# Source files
-assets/
-src/
-package.json
-
 # Version control
 .git/
 .gitignore
@@ -34,3 +29,4 @@ Thumbs.db
 
 # Cache files
 .openblock/
+.translations/
