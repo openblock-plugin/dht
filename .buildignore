@@ -9,7 +9,8 @@ node_modules/
 .buildignore
 .editorconfig
 .eslintignore
-.eslintrc.js
+.eslintrc.json
+.husky
 
 # Lock files
 package-lock.json
