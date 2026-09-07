@@ -28,8 +28,8 @@ export default {
             'dht.description': 'DHT Temperature and humidity sensor module.'
         },
         'zh-cn': {
-            'dht.name': 'DHT Sensor',
-            'dht.description': 'DHT Temperature and humidity sensor module.'
+            'dht.name': 'DHT 传感器',
+            'dht.description': 'DHT 温湿度传感器模块。'
         },
         'zh-tw': {
             'dht.name': 'DHT Sensor',
@@ -57,9 +57,9 @@ export default {
         },
         'zh-cn': {
             'DHT_CATEGORY': 'DHT',
-            'DHT_INIT': 'init dht %1 pin %2 model %3',
-            'DHT_READ_TEMPERATURE': 'dht %1 read temperature %2',
-            'DHT_READ_HUMIDITY': 'dht %1 read humidity'
+            'DHT_INIT': '初始化 dht %1 引脚 %2 型号 %3',
+            'DHT_READ_TEMPERATURE': 'dht %1 读取温度 %2',
+            'DHT_READ_HUMIDITY': 'dht %1 读取湿度'
         },
         'zh-tw': {
             'DHT_CATEGORY': 'DHT',
